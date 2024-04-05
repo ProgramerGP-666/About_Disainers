@@ -164,3 +164,51 @@ nav{
     color: #1A1A1A;
     background-color: #FEBE02;
 }
+
+.mob-btn{
+    display: none;
+    color: white;
+    font-size: 60px;
+    text-decoration: none;
+}
+
+@media (max-width: 992px){
+    .header-info{
+        flex-direction: column;
+    }
+    .card-about{
+        margin-top: 60px;
+    }
+    .container{
+        padding: 0 20px;
+    }
+}
+@media (max-width: 578px){
+    .join{
+        display: none;
+    }
+    .header-title-text{
+        font-size: 60px;
+    }
+    .audio-block img{
+        display: none;
+    }
+    .audio-block, .audio-detail, .card-about, .card-info{
+        width: 100%;
+    }
+    .control i{
+        height: 46px;
+    }
+    .audio-container{
+        padding-right: 42px;
+    }
+    .card-info img{
+        max-width: 100%;
+    }
+    .nav-holder{
+        display: none;
+    }
+    .mob-btn{
+        display: inline-block;
+    }
+}
